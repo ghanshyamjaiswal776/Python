@@ -1,0 +1,1 @@
+# WAP to find the sum of first n natural number(using while)

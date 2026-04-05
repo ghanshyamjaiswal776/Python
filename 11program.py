@@ -35,4 +35,17 @@ print(str1[3])
 
 # slicing /accessing parts of a string
 str = "apna college"
-print(str[0:4])
+print(str[:4]) #[0:4]
+print(str[5:]) #[5:len(str)]
+# negative slicing
+str = "apple"
+print(str[-5:-2])
+
+# string function
+str = "i am from studying python from apnacollege"
+print(str.endswith("ege"))
+str = str.capitalize()
+print(str)
+print(str.replace("o","a"))
+print(str.find("o"))
+print(str.count("from"))
